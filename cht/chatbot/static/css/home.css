@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+.description-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-size: 32px;
+}
+.description-box p{
+    margin-left: 10em;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+}
+.chat-img{
+    width: 65%;
+}
